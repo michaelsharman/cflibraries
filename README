@@ -1,0 +1,14 @@
+Introduction
+-------------------------------
+
+A collection of common functionality to be re-used across projects. While you can copy and paste these into a project, you'll of course still need to tweak things such as database
+tables, dsn's etc
+
+
+Requirements
+-------------------------------
+
+This was built on
+
+    Railo 3.2+
+    ColdFusion 9+
