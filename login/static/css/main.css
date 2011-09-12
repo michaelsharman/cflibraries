@@ -1,3 +1,22 @@
 #frmLogin ol {list-style: none; padding-left: 0;}
 #frmLogin ol li {margin-bottom: 10px;}
 #frmLogin label {width: 100px; display: inline-block; vertical-align: top;}
+
+/* ALERT MESSAGES */
+.message-success {border: 2px solid #a0eda0;background: #e2ffe2 url("images/sprites_message.gif") no-repeat 15px 7px;padding: 10px;color:#007300;margin: 0 0 22px}
+.message-success * {margin: 0 0 0 60px;border-left: 2px solid #a0eda0;padding-left:20px;background:none}
+.message-success * * {margin: 0;border:none;padding-left:0;background:none}
+.message-success li {list-style-type:disc;margin-left:20px;line-height:1.6}
+	.pod .message-success {padding: 10px;background: #e2ffe2}
+	.pod .message-success * {border:none;padding:0;margin:0}
+
+.message-error {border: 2px solid #f0adad;background: #ffe3e3 url("images/sprites_message.gif") no-repeat 15px -293px;padding: 10px;color:#dd0000;margin: 0 0 22px}
+.message-error a{text-decoration:underline;}
+.message-error * {margin: 0 0 0 60px;border-left: 2px solid #f0adad;padding-left:20px;background:none}
+.message-error * * {margin: 0;border:none;padding-left:0;background:none}
+.message-error ul li {background:none;}
+.message-error li {list-style-type:none;margin-left:0px;line-height:1.6;background:none;font-size:90%}
+.message-error .close a {border: 2px solid #f0adad;background:#fff;padding:3px 6px;color:#dd0000}
+.message-error .close a:hover {border: 2px solid #dd0000;background:#dd0000;color:#fff;padding:3px 6px}
+	.pod .message-error {padding: 10px;background: #ffe3e3}
+	.pod .message-error * {border:none;padding:0;margin:0}

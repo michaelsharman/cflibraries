@@ -24,7 +24,7 @@
 <cfparam name="attributes.id" default="message-box">
 <cfparam name="attributes.class" default="">
 
-<cfif NOT structKeyExists(attributes, "data") OR NOT isValid("struct", attributes.data)>
+<cfif NOT structKeyExists(attributes, "data") OR NOT isValid("struct", attributes.data) OR structIsEmpty(attributes.data)>
 	<cfexit>
 </cfif>
 
